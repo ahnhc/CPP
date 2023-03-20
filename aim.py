@@ -14,3 +14,7 @@ for i in range(a,0,-1):
     star_start +=2
     if star_start == 5:
         print(blank * (i-2),"AIM")
+
+# 코딩 문제 3번
+
+
