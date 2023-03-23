@@ -16,17 +16,19 @@ for i in range(a,0,-1):
         print(blank * (i-2),"AIM")
 
 # 코딩 문제 3번
-# no_num = 0
-# major = []
-# class_of = []
-# mbti = []
-# name = []
-# answer = 'Yes'
-# while answer != 'No':
-#     str(input(major.append))
-#     input(class_of.append)
-#     str(input(mbti.append))
-#     str(input(name.append))
-#     no_num+=1
-#     print("{}. {}.ljust(8) {}.ljust(2)학번 {}.ljust(4) {}.ljust(6)".format(no_num(no_num),major(no_num),class_of(int(no_num)),mbti(no_num),name(no_num)))
-#     answer = str(input(print("더 입력하시겠습니까? (Yes/No)")))
+
+star = '*'
+dot = '.'
+print(star * 18, "AIM" ,star * 17)
+
+major_list = ["컴퓨터공학부       ","바이오메디컬소프트웨어","","","",""]
+classof_list = ["22학번","23학번","","","",""]
+mbti_list = ["ISTP","ENTJ","INFP","ENFP","ENFJ","ISFP"]
+name_list = ["강유정","안형찬","윤지오","정상윤","최예지","최하나"]
+
+
+for i in range (6):
+    print(star, i+1,dot,major_list[i],classof_list[i],mbti_list[i],name_list[i],star)
+    i+=1
+    
+print(star * 40)
