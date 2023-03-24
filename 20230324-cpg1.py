@@ -73,3 +73,30 @@
 #         failed = 0
 
 # Nested loops
+# for i in [1,2,3]:
+#     print("Welcome to Programming Class!")
+#     for i in [1,2]:
+#         print("Hi! " *i)
+
+# for i in range(1,6):
+#     for j in range(1, i+1):
+#         print(j, end="")
+#     print("")
+
+# end="" 명령어를 사용하면 print 되는 값을 한 줄에 붙여서 출력하게 해준다.
+
+# print("All cases where the sum of the dice is 6")
+# for i in range(1,6):
+#     for j in range(1,6):
+#         if i+j ==6:
+#             print(f"1st dice : {i} 2nd dice : {j}")
+
+# exercise : Multiplication table
+
+# for i in range(1,10):
+#     for j in range(1,10):
+#         k = i*j
+#         print(f"{i} * {j} = {k}")
+
+# infinite loop and break & continue
+
