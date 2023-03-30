@@ -1,0 +1,23 @@
+# 사용자에게 구구단의 단을 입력받고 구구단을 출력해주는 프로그램을 작성하세요
+# gugu = int(input("구구단의 단을 입력해주세요 : "))
+# gugui = 0
+# for i in range(9):
+#     gugui = gugu * (i+1)
+#     print(f"{gugu} x {i+1} = {gugui}")
+
+# 사용자에게 별탑의 층수를 입력받아 쌓는 프로그램을 작성하세요
+
+# num = int(input("별탑의 층수를 입력해주세요: "))
+#
+# for i in range(num):
+#     print(' '* (num-i-1)+'*'*(i*2+1))
+
+# 과제 2번
+
+# num = int(input("별탑의 층수를 입력해주세요: "))
+#
+# for i in range(num):
+#     print(' '* (num-i-1)+'*'*(i*2+1))
+#
+# for i in range(num):
+#     print(' '*i +'*'*((num*2-1)-(2*i)))
