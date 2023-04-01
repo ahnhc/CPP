@@ -68,7 +68,7 @@
 # Quiz : why does it have an error?
 
 # result = get_area(3)
-# print("Area of a circle with radius 3 =",result)
+# print("Area of aim-3주차 circle with radius 3 =",result)
 # def get_area(radius):
 #     area = 3.14 * radius**2
 #     return area
@@ -78,7 +78,7 @@
 
 # def main() :
 #     result1 = get_area(3)
-#     print("Area of a circle with radius 3=", result1)
+#     print("Area of aim-3주차 circle with radius 3=", result1)
 # def get_area(radius):
 #     area = 3.14*radius**2
 #     return area
@@ -140,8 +140,8 @@
 # dic2 = {"fruit":"banana","color":"yellow"}
 # fruit_feature(**dic2)
 
-# def sum(a,b,c):
-#     print(a+b+c)
+# def sum(aim-3주차,b,c):
+#     print(aim-3주차+b+c)
 # alist = [1,2,3]
 # print(sum(*alist))
 

@@ -1,5 +1,4 @@
 # convert temperature
-import locale
 
 # def menu():
 #     print("1. Celcius to Fahrenheit")
@@ -71,7 +70,7 @@ import locale
 #     print("2. sub")
 #     print("3. reset")
 #     print("4. End")
-#     select = int(input("Choose a menu : "))
+#     select = int(input("Choose aim-3주차 menu : "))
 #     return select
 # def add():
 #     num = int(input("What number do you want to add? : "))

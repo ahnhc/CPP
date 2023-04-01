@@ -1,11 +1,11 @@
 # sum from 1 to 10
 
-# i = 1
-# sum = 0
-# while i <= 10:
-#     sum+=i
-#     i+=1
-# print("sum = ",sum)
+i = 1
+sum = 0
+while i <= 10:
+    sum+=i
+    i+=1
+print("sum = ",sum)
 
 # While statement with else
 
@@ -120,26 +120,3 @@
 #     if light == 'green':
 #         break
 # print( 'Go!!')
-
-# exercise : times table test
-
-num_list = []
-answer = 'y'
-while answer == 'y':
-    nums = int(input("Which times table do you test? (Enter nums btw 2 and 9) : "))
-    num_list.append(nums)
-    answer = str(input("More?(y/n) : "))
-print(f"We will test {num_list} times table.")
-
-exam_list = []
-while i in range(num_list):
-    exam = random.randint(1, 10)
-    exam_list.append(exam)
-    i+=1
-
-problems = 3*range(num_list)
-print(f"We will test {problems} problems.")
-
-while j in range(num_list):
-    print(f"{num_list[j]} * {exam_list[j]} = {}")
-    j+=1
