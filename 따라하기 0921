@@ -1,0 +1,125 @@
+[과제번호 w04.01]
+
+#include <iostream>
+
+int main()
+{
+	int num1, num2, result;
+
+	std::cout << "Enter 2 numbers: ";
+	std::cin >> num1 >> num2;
+
+	std::cout << num1 << " % " << num2 << " = " << num1 % num2 << std::endl;
+
+	num1 += num2;
+	std::cout << "num1 += num2 => " << num1 << std::endl;
+
+	num2 *= 2;
+	std::cout << "num2 *= 2 => " << num2 << std::endl;
+
+	return 0;
+}
+
+[과제번호 w04.02]
+
+#include <iostream>
+
+using std::cout;
+using std::endl;
+
+int main()
+{
+	int num1 = 10;
+	int num2 = 20;
+
+	cout << "[postfix]" << endl;
+	cout << "num1: " << num1 << ", " << num1++ << ", " << num1 << endl;
+	cout << "num2: " << num2 << ", " << num2-- << ", " << num2 << endl;
+
+	num1 = 10;	num2 = 20;
+
+	cout << "[prefix]" << endl;
+	cout << "num1: " << num1 << ", " << ++num1 << ", " << num1 << endl;
+	cout << "num2: " << num2 << ", " << --num2 << ", " << num2 << endl;
+
+	return 0;
+}
+
+[과제번호 w04.03]
+
+#include <iostream>
+
+using std::cout;
+using std::cin;
+using std::endl;
+
+int main()
+{
+	int num1; 
+	int num2;
+	int A; 
+	int B;
+
+	cout << "Enter the 1st number: ";
+	cin >> num1;
+	cout << "Enter the 2nd number: ";
+	cin >> num2;
+
+	A = num1 * num1 + num2 * num2;
+	B = (num1 + num2) * (num1 + num2);
+
+	cout << "A(num1 ^ 2 + num2 ^ 2) = " << A << endl;
+	cout << "B(num1 + num2) ^ 2 = " << B << endl;
+	
+	return 0;
+}
+
+[과제번호 w04.04]
+
+#include <iostream>
+
+using std::cout;
+using std::cin;
+using std::endl;
+
+int main()
+{
+	int hours; 
+	int minutes;
+	int seconds; 
+
+	cout << "Enter the number of hours: ";
+	cin >> hours;
+	cout << "Enter the number of minutes: ";
+	cin >> minutes;
+	cout << "Enter the number of seconds: ";
+	cin >> seconds;
+
+	cout << "Result in seconds: " << hours * 3600 + minutes * 60 + seconds << endl;
+
+	return 0;
+}
+
+[과제번호 w04.05]
+
+#include <iostream>
+
+using std::cout;
+using std::cin;
+using std::endl;
+
+int main()
+{
+	int num1;
+	int num2;
+	int diff; 
+
+	cout << "Enter 2 numbers: ";
+	cin >> num1 >> num2;
+
+	diff = (num1 > num2) ? num1 - num2 : num2 - num1;
+
+	cout << "absolute value of the difference: " << diff << endl;
+	
+	return 0;
+}
