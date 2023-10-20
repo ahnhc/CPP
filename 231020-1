@@ -1,0 +1,30 @@
+#include <iostream>
+#include <cstdlib>
+#include <ctime>
+
+using namespace std;
+
+void LottoGenerator(int size, int min, int max) {
+	
+}
+
+int main(int size, int min, int max) {
+	cout << "[Lotto Number Generator]" << endl;
+	do {
+		cout << "Enter lotto number size(5 ~ 10): " ;
+		cin >> size;
+	} while (size < 5 || size > 10);
+
+	do {
+		cout << "Enter MIN number(1 ~ 100): ";
+		cin >> min;
+	} while (min < 1 || min > 100);
+	
+	do {
+		cout << "Enter MAX number(1 ~ 100): ";
+		cin >> max;
+	} while (max < 1 || max > 100);
+	
+	cout << "Lotto Number: " << LottoGenerator(size, min, max) << endl;	
+	return 0;
+}
